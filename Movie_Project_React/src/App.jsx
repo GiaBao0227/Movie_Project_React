@@ -1,14 +1,14 @@
 import "./App.css";
 import HomeTemplate from "./pages/HomeTemplate";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomeTemplate/HomePage";
+import HomePage from "./pages/HomeTemplate";
 import { renderRoutes } from "./routes";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes >
-      {renderRoutes()}
+      <Routes>
+        {renderRoutes()}
         {/*Localhost :5173 */}
         {/* <Route path="" element={<HomeTemplate />}>
           <Route path="" element={<HomePage />} />

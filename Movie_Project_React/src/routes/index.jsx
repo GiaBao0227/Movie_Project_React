@@ -1,8 +1,6 @@
-
 import HomeTemplate from "../pages/HomeTemplate";
 import HomePage from "../pages/HomeTemplate/HomePage";
 import { Route } from "react-router-dom";
-import test from "../pages/HomeTemplate/HomePage/test";
 
 const routes = [
   {
@@ -12,12 +10,9 @@ const routes = [
       {
         path: "",
         element: HomePage,
-      },{
-        path:"test",
-        element: test,
-      }
+      },
     ],
-  }
+  },
 ];
 
 export const renderRoutes = () => {
